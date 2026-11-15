@@ -1,0 +1,15 @@
+{
+ "data": "data",
+ "patch": "LODGen Patch - lodslicer.esp",
+ "xlodgen_output": "xlodgen-output",
+ "xlodgen_atlas": "tamrielobjectslod",
+ "atlas": "nwravenobjectslod",
+ "package": "Northwatch Ravenscar - Object LOD",
+ "opaque_textures": ["textures\\dungeons\\ships\\shipwoodside01.dds"],
+ "opaque_max_size": 1024,
+ "load_order": ["DynDOLOD Resources.esp", "Boats and Ships 4k.esp"],
+ "plugins": {
+  "Northwatch Coast.esp": {"models": "\\\\rocks\\\\", "min_size": 0},
+  "RavenscarVillage.esp": {"models": ".", "min_size": 500}
+ }
+}

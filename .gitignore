@@ -1,0 +1,40 @@
+# Your own job: copy lodslicer.example.json to lodslicer.json and edit it
+/lodslicer.json
+/targets.json
+
+# Game data copied in for a job (plugins, archives, swap files)
+/data/*
+!/data/.gitkeep
+
+# Generated
+/patch/
+/xlodgen-output/
+/result/
+
+# Game assets and plugins, wherever they end up
+*.bsa
+*.ba2
+*.esm
+*.esp
+*.esl
+*.dds
+*.nif
+*.bto
+*.btr
+*.btt
+*_SWAP.ini
+
+# xLODGen / xEdit logs
+*_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
